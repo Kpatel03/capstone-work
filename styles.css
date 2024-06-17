@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /**background-color: rgb(255, 242, 234);**/
+}
+
+.Heading {
+    display: flex;
+    margin-top: 15px;
+    align-content: center;
+}
+
+.Heading h1 {
+    color: rgb(238, 146, 7);
+    font-weight: 900;
+    font-style: bolder;
+    font-size: 2.5rem;
+}
+
+.tech {
+    color: black;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.main-post button {
+    display: block;
+    margin-left: 80px;
+    margin-top: 200px;
+    width: 180px;
+    padding: 10px;
+    background: rgb(238, 146, 7);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px orange;
+}
+
+.main-post button:hover {
+    background: rgb(221, 47, 20);
+}
+
+.nav-bar {
+    height: 45px;
+    box-shadow: 10px 2px 20px rgb(67, 66, 66);
+    border: 2px solid black;
+    font-size: 1.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar span {
+    margin-left: 10px;
+}
+
+.nav-notification {
+    margin-left: 585px;
+}
+
+.nav-notification:hover {
+    color: #0779e4;
+}
+
+.nav-profile {
+    margin-left: 30px;
+}
+
+.nav-profile:hover {
+    color: #0779e4;
+}
+
+
+.box {
+    height: 220px;
+    width: 800px;
+    margin-left: 20px;
+    display: inline-block;
+    box-shadow: 10px 50px 20px rgb(67, 66, 66);
+}
+
+.box-img {
+    height: 220px;
+    width: 100%;
+    border-radius: 5px;
+    background-size: cover;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-msg {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.85rem;
+    font-weight: 800;
+}
+
+/**.box-msg p {
+   background-image: url("img2.avif");
+}**/
+
+.panel1 {
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 10px 2px 20px rgb(67, 66, 66);
+    font-size: 1.50rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center
+}
+
+.invite a {
+    display: block;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    background: rgb(247, 125, 3);
+    box-shadow: 1px 2px 3px orange;
+    color: white;
+    text-decoration:none;
+    font-size: 1.25rem;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+.invite a:hover {
+    background-color: rgb(221, 47, 20);
+}
+
+.panel1 i {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.panel2 {
+    height: 45px;
+    margin-left: 320px;
+    margin-right: 418px;
+    border: 1px solid black;
+    box-shadow: 4px 2px 6px rgb(67, 66, 66);
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-ops a {
+    margin-inline: 35px;
+    font-weight: 750;
+    color: rgb(240, 9, 9);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.panel-ops a:active {
+    background-color: rgb(246, 218, 166);
+    /**border-bottom: 1px solid red;**/
+}
+
+.panel-ops a:hover {
+    /**background-color: rgb(183, 230, 248);**/
+    color: #0779e4;
+}
+
+/**.panel-ops a:focus {
+    color: #0779e4;
+}**/
+
+main{
+    display: flex;
+}
+
+.panel3 {
+    height: 290px;
+    margin-left: 60px;
+    border-left: 1px solid black;
+}
+
+.comments {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.comments-input {
+    height: 30px;
+    width: 650px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
+.comments button {
+    margin-top: 2px;
+    width: 70px;
+    padding: 5px;
+    background: rgb(238, 146, 7);
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px orange;
+}
+
+.comments button:hover {
+    background: rgb(221, 47, 20);
+}
+
+.comments-post {
+    border-bottom: 1px solid black;
+}
+
+.container {
+    margin-top: 5px;
+    margin-left: 210px;
+    font-feature-settings: "smcp", "zero";
+    font-weight: 770;
+}
+
+.datetime {
+    margin-top: 5px;
+    margin-left: 5px;
+    border : none
+}
+
+.event-details {
+    width: 790px;
+    height: 170px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 2px groove rgb(187, 181, 181);
+}
+
+.event-details input {
+    width: 500px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px dotted gray;
+}
+.event-description {
+    margin-bottom: 15px;
+}
+
+.event-description h2 {
+    margin-bottom: 5px;
+}
+
+.meeting-info h2 {
+    margin-bottom: 5px;
+}
+
